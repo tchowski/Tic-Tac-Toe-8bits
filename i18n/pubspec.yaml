@@ -1,0 +1,24 @@
+name: i18n
+description: Module for wordings
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: ^3.7.2
+  flutter: ^3.29.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+
+dev_dependencies:
+  # Code quality
+  flutter_lints: ^3.0.1
+  dependency_validator: ^3.2.3
+  intl_utils: ^2.8.12
+
+flutter_intl:
+  enabled: true
+  class_name: I18n
+  main_locale: fr

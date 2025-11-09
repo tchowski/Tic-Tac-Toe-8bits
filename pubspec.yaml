@@ -1,0 +1,83 @@
+name: tic_tac_toc_8_bits
+description: "Tic Tac Toe 8-Bits"
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+  i18n:
+    path: i18n
+  
+  # Navigation
+  auto_route: ^9.2.2
+  
+  # Audio
+  audioplayers: ^6.1.0
+  
+  # State Management & DI
+  flutter_bloc: ^8.1.6
+  get_it: ^8.0.3
+  logger: ^2.0.2
+  
+  # Autres
+  equatable: ^2.0.5
+  
+  # Local storage
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.14.4"
+  
+  # Code generation
+  auto_route_generator: ^9.0.0
+  build_runner: ^2.4.13
+  injectable_generator: ^2.6.2
+  
+  # Testing
+  bloc_test: ^9.1.5
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  
+  fonts:
+    - family: PixelOperator
+      fonts:
+        - asset: assets/fonts/pixel_operator/PixelOperator.ttf
+        - asset: assets/fonts/pixel_operator/PixelOperator-Bold.ttf
+          weight: 700
+    - family: PixelOperator8
+      fonts:
+        - asset: assets/fonts/pixel_operator/PixelOperator8.ttf
+        - asset: assets/fonts/pixel_operator/PixelOperator8-Bold.ttf
+          weight: 700
+    - family: PixelOperatorMono
+      fonts:
+        - asset: assets/fonts/pixel_operator/PixelOperatorMono.ttf
+        - asset: assets/fonts/pixel_operator/PixelOperatorMono-Bold.ttf
+          weight: 700
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf
+  
+  assets:
+    - assets/animations/
+    - assets/audio/
+    - assets/fonts/
+    - assets/images/

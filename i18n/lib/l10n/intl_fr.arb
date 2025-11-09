@@ -1,0 +1,67 @@
+{
+  "@@locale": "fr",
+  "splash_screen_press_start": "PRESS START",
+  "@splash_screen_press_start": {
+    "description": "Texte clignotant affiché sur le splash screen pour inviter à démarrer"
+  },
+  "game_status_player1_turn": "JOUEUR 1\nÀ TOI DE JOUER",
+  "@game_status_player1_turn": {
+    "description": "Message affiché quand c'est au tour du joueur 1"
+  },
+  "game_status_player2_turn": "JOUEUR 2\nÀ TOI DE JOUER",
+  "@game_status_player2_turn": {
+    "description": "Message affiché quand c'est au tour du joueur 2"
+  },
+  "game_status_player1_wins": "JOUEUR 1 GAGNE !",
+  "@game_status_player1_wins": {
+    "description": "Message affiché quand le joueur 1 gagne"
+  },
+  "game_status_player2_wins": "JOUEUR 2 GAGNE !",
+  "@game_status_player2_wins": {
+    "description": "Message affiché quand le joueur 2 gagne"
+  },
+  "game_status_draw": "MATCH NUL !",
+  "@game_status_draw": {
+    "description": "Message affiché en cas d'égalité"
+  },
+  "game_status_ai_turn": "L'IA RÉFLÉCHIT...",
+  "@game_status_ai_turn": {
+    "description": "Message affiché quand c'est au tour de l'IA"
+  },
+  "game_action_restart": "REJOUER",
+  "@game_action_restart": {
+    "description": "Libellé du bouton rejouer"
+  },
+  "game_selection_title_player_select": "SÉLECTION DU JOUEUR",
+  "@game_selection_title_player_select": {
+    "description": "Titre de la section de sélection du mode de jeu"
+  },
+  "game_selection_mode_two_player": "2 JOUEURS",
+  "@game_selection_mode_two_player": {
+    "description": "Option pour jouer à deux joueurs"
+  },
+  "game_selection_mode_one_player": "1 JOUEUR",
+  "@game_selection_mode_one_player": {
+    "description": "Option pour jouer contre l'IA"
+  },
+  "game_selection_title_difficulty": "DIFFICULTÉ",
+  "@game_selection_title_difficulty": {
+    "description": "Titre de la section de sélection de la difficulté"
+  },
+  "game_selection_difficulty_easy": "FACILE",
+  "@game_selection_difficulty_easy": {
+    "description": "Option de difficulté facile"
+  },
+  "game_selection_difficulty_medium": "MOYEN",
+  "@game_selection_difficulty_medium": {
+    "description": "Option de difficulté moyenne"
+  },
+  "game_selection_difficulty_hard": "DIFFICILE",
+  "@game_selection_difficulty_hard": {
+    "description": "Option de difficulté difficile"
+  },
+  "game_selection_action_start": "DÉMARRER",
+  "@game_selection_action_start": {
+    "description": "Bouton pour démarrer le jeu"
+  }
+}

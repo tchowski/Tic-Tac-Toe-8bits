@@ -1,0 +1,67 @@
+{
+  "@@locale": "en",
+  "splash_screen_press_start": "PRESS START",
+  "@splash_screen_press_start": {
+    "description": "Blinking text displayed on the splash screen prompting the user to start"
+  },
+  "game_status_player1_turn": "PLAYER 1 - YOUR TURN",
+  "@game_status_player1_turn": {
+    "description": "Message shown when it is player 1's turn"
+  },
+  "game_status_player2_turn": "PLAYER 2 - YOUR TURN",
+  "@game_status_player2_turn": {
+    "description": "Message shown when it is player 2's turn"
+  },
+  "game_status_player1_wins": "PLAYER 1 WINS!",
+  "@game_status_player1_wins": {
+    "description": "Message shown when player 1 wins"
+  },
+  "game_status_player2_wins": "PLAYER 2 WINS!",
+  "@game_status_player2_wins": {
+    "description": "Message shown when player 2 wins"
+  },
+  "game_status_draw": "DRAW GAME!",
+  "@game_status_draw": {
+    "description": "Message shown when the game ends with no winner"
+  },
+  "game_status_ai_turn": "AI IS THINKING...",
+  "@game_status_ai_turn": {
+    "description": "Message shown when it is the AI's turn"
+  },
+  "game_action_restart": "RESTART",
+  "@game_action_restart": {
+    "description": "Label for restart button"
+  },
+  "game_selection_title_player_select": "PLAYER SELECT",
+  "@game_selection_title_player_select": {
+    "description": "Title for the game mode selection section"
+  },
+  "game_selection_mode_two_player": "2 PLAYER",
+  "@game_selection_mode_two_player": {
+    "description": "Option to play with two players"
+  },
+  "game_selection_mode_one_player": "1 PLAYER",
+  "@game_selection_mode_one_player": {
+    "description": "Option to play against AI"
+  },
+  "game_selection_title_difficulty": "DIFFICULTY",
+  "@game_selection_title_difficulty": {
+    "description": "Title for the difficulty selection section"
+  },
+  "game_selection_difficulty_easy": "EASY",
+  "@game_selection_difficulty_easy": {
+    "description": "Easy difficulty option"
+  },
+  "game_selection_difficulty_medium": "MEDIUM",
+  "@game_selection_difficulty_medium": {
+    "description": "Medium difficulty option"
+  },
+  "game_selection_difficulty_hard": "HARD",
+  "@game_selection_difficulty_hard": {
+    "description": "Hard difficulty option"
+  },
+  "game_selection_action_start": "START",
+  "@game_selection_action_start": {
+    "description": "Button to start the game"
+  }
+}

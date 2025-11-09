@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-raw-types: false
+
+  exclude:
+    - lib/generated/intl/*.dart
+    - i18n/lib/generated/*
+
+linter:
+  rules:
+    depend_on_referenced_packages: false
+    no_literal_bool_comparisons: true
